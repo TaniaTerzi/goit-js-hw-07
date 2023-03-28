@@ -21,9 +21,5 @@ galleryItems.forEach((item) => {
 
 takeEllement.insertAdjacentHTML('afterbegin', listGallery);
 
-
-takeEllement.addEventListener('click', (el) => {
-    el.preventDefault()} );
-
-    const lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
+   const lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
 
